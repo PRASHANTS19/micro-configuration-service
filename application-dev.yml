@@ -1,0 +1,12 @@
+# here we will add those configuration which is repeating in all the services.
+
+spring:
+  application:
+    name: Config-Dev
+
+eureka:
+  instance:
+    prefer-ip-address: true
+  client:
+    fetch-registry: true
+    register-with-eureka: true
