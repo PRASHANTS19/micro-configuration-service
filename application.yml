@@ -1,9 +1,5 @@
 # here we will add those configuration which is repeating in all the services.
 
-spring:
-  application:
-    name: Config-Default
-
 eureka:
   instance:
     prefer-ip-address: true
